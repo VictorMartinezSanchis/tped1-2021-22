@@ -1,13 +1,42 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.tipos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
 header {
     background-color: aqua;
 }
 
-section {
-    background-color: beige;
+
+figure{
+    width: 100%;
+    text-align: center; 
+    width: 33%;
+    padding: 10px;
+}
+
+div{ 
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    color: rgb(187, 187, 187);
+    padding: 15px;
 }
 
 img {
-    width: 33%;
+    width: 100%;
     height: auto;
     filter: saturate(0);
 }
@@ -15,6 +44,11 @@ img {
 a:hover img {
     filter: saturate(1);
 }
+
+
+
+
+
 
 .blur {filter: blur(4px);}
 .brightness {filter: brightness(250%);}
@@ -26,3 +60,5 @@ a:hover img {
 .saturate {filter: saturate(7);}
 .sepia {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 8px 10px green);}
+
+
