@@ -31,7 +31,7 @@ div{
     width: 100%;
     background-color: aqua;
     text-align: center;
-    color: rgb(187, 187, 187);
+    color: black;
     padding: 15px;
 }
 
@@ -44,8 +44,6 @@ img {
 a:hover img {
     filter: saturate(1);
 }
-
-
 
 
 
