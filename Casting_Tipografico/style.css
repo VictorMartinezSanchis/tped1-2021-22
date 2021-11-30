@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comforter&family=Kings&family=Lobster&family=M+PLUS+1+Code:wght@300&family=Yellowtail&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.title{
+    font-size: 2em;
+}
+#kings{
+    font-family: 'Kings', cursive;
+}
+#amatic{
+    font-family: 'Amatic SC', cursive;
+}
+#comforter{
+    font-family: 'Comforter', cursive;
+}
+#lobster{
+    font-family: 'Lobster', cursive;
+}
+#mplus{
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+#yellowtail{
+    font-family: 'Yellowtail', cursive;
+}
+
+
+.tipos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(196, 231, 233);
+}
+
+
+figure{
+    width: 100%;
+    text-align: center; 
+    width:33%;
+    padding: 10px;
+}
+
+div{ 
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
+
+
+
